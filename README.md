@@ -28,9 +28,7 @@ on [Wikipedia](https://en.wikipedia.org/wiki/Fibonacci_number)
 
 generating the Fibonacci sequences exercises a few of
 the tools programmers use regularly, and so it's a useful
-exercise in this series. it can be solved two ways:
-
-TODO WHAT TOOLS (loops, recursion)
+exercise in this series.
 
 in this exercise, we'll use command line arguments
 as well, a useful tool to have in the belt.
@@ -42,6 +40,7 @@ on the command line, generates the _n<sup>th</sup>_
 number in the Fibonacci sequence:
 
 `python3 fibonacci.py 3` should print `2`, for instance.
+`python3 fibonacci.py 40` should print `102334155`.
 
 include both 0 and 1 as options, though their numbers
 fixed, not calculated.
@@ -68,6 +67,12 @@ since:
 _F<sub>n</sub> = F<sub>n-1</sub> + F<sub>n-2</sub>_
 
 is a recursive definition.
+
+### comparing the two
+
+you might learn something from comparing the time it takes
+each implementation to complete. for that reason, we recommend
+you build both.
 
 ## in python
 
